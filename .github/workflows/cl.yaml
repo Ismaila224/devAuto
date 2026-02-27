@@ -34,3 +34,4 @@ jobs:
       # Pousser l'image vers Docker Hub
       #- name: Push image
         #run: docker push ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest
+        #dkdjk
