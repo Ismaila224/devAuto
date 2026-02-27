@@ -1,4 +1,4 @@
-# Workflow pour construire et pousser une image Docker
+# Workflow pour construire et pousser une image Docker 
 name: CI Docker Build
 
 # Déclencheurs du workflow
