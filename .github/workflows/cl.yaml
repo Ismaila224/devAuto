@@ -28,10 +28,9 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       # Construire l'image Docker
-      #- name: Build image
-        #run: docker build -t ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest .
+      - name: Build image
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest .
 
       # Pousser l'image vers Docker Hub
-      #- name: Push image
-        #run: docker push ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest
-        #dkdjk
+      - name: Push image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest
